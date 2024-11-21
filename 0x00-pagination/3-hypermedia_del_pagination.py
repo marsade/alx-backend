@@ -48,7 +48,7 @@ class Server:
                 Dict: The indexed hypermedia response
         '''
         dataset = self.indexed_dataset()
-        data_len = self.indexed_dataset()
+        data_len = len(dataset)
         assert 0 <= index <= data_len
         next_index = index if dataset.get(index) else None
         data = []
