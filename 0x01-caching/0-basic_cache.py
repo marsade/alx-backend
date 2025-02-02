@@ -1,6 +1,6 @@
 #!/usr/bin/python
-from base_caching import BaseCaching
 '''Basic Caching dictionary'''
+from base_caching import BaseCaching
 
 
 class BasicCache(BaseCaching):
